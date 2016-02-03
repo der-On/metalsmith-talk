@@ -1,0 +1,4 @@
+<section class="slide" title="<%- slide.title %>">
+  <% if (slide.image) { %><div class="slide-background" style="background-image:url('<%- slide.image %>');"></div><% } %>
+<%- slide.contents.toString() %>
+</section>

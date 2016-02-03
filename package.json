@@ -1,0 +1,25 @@
+{
+  "name": "metalsmith-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "start": "NODE_ENV=development node build.js",
+    "build": "NODE_ENV=production node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ondrej Brinkel <info@anzui.de>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-express": "^0.1.0",
+    "metalsmith-layouts": "^1.4.4",
+    "metalsmith-markdown": "^0.2.1"
+  },
+  "devDependencies": {
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-watch": "^1.0.1"
+  }
+}

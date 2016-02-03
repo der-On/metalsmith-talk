@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title><%- title %></title>
+
+	<link href="assets/slideshow.css" rel="stylesheet" />
+	<link href="assets/theme.css" rel="stylesheet" />
+	<link href="assets/prism.css" rel="stylesheet" />
+	<script src="assets/prefixfree.min.js"></script>
+</head>
+<body>
+<% collections.slides.forEach(function (slide, index) { %>
+<%- include('_slide.html.ejs', { slide: slide, index: index }) %>
+<% }) %>
+<script src="assets/slideshow.js"></script>
+<script src="assets/prism.js"></script>
+<script>
+var slideshow = new SlideShow();
+</script>
+</body>
+</html>
