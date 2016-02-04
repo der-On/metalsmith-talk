@@ -260,7 +260,7 @@ section > header.slide {
 	bottom: 0;
 	z-index: -1;
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: center center;
 	background-size: cover;
 	opacity: 0.65;
 }

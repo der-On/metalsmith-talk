@@ -26,7 +26,7 @@ if (env === 'development') {
 ms
   .use(collections({
     slides: {
-      sortBy: 'path',
+      sortBy: 'order',
       pattern: 'slides/*.md'
     }
   }))

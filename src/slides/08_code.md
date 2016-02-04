@@ -1,5 +1,6 @@
 ---
 title: Beispiel
+order: 8
 ---
 
 # Beispielanwendung

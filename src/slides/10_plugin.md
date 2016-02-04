@@ -1,5 +1,6 @@
 ---
 title: Eigenes Plugin
+order: 10
 ---
 
 # Eigenes Plugin

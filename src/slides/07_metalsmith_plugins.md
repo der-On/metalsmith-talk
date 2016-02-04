@@ -1,5 +1,6 @@
 ---
 title: Metalsmith
+order: 7
 ---
 
 # Metalsmith

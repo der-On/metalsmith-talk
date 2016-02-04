@@ -1,6 +1,7 @@
 ---
 title: Mischen von statisch und dynamisch
 image: assets/images/mixed_colors.jpg
+order: 5
 ---
 
 # Die Mischung machts

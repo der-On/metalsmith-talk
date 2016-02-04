@@ -1,5 +1,6 @@
 ---
 title: Warum Static-Site-Generators
+order: 3
 ---
 
 # Warum?

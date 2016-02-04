@@ -1,5 +1,6 @@
 ---
 title: Outline
+order: 2
 ---
 
 # Outline
